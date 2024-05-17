@@ -10,17 +10,6 @@
   min-height: 100vh;
   position: relative;
 }
-.blur-circle1 {
-  width: 200px;
-  height: 200px;
-  background: linear-gradient(to bottom, white, #61dafb);
-  border-radius: 50%;
-  filter: blur(120px);
-  position: absolute;
-  left: 10%;
-  top: 20%;
-  /* transform: translate(50%); */
-}
 body {
   font-family: "Open Sans", sans-serif;
 }

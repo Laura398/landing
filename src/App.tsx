@@ -7,12 +7,11 @@ function App() {
   return (
     <>
       <div className="main-container">
-        <div className="blur-circle1"></div>
         <div className="landing-page">
           <header>
             <div className="container">
               <a href="#" className="logo">
-                <img src="./logo.png" alt="logo" width={80} />
+                <img src="/assets/logo.png" alt="logo" width={80} />
               </a>
               <ul className="links">
                 <li><a href="https://www.portfolio.lauramathieu.com" style={{color: "white"}}>Portfolio</a></li>
