@@ -104,7 +104,7 @@ ul {
 }
 .landing-page header .links li {
   margin-left: 30px;
-  color: #5d5d5d;
+  color: white;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -169,3 +169,4 @@ h2 {
   border-radius: 50%;
   margin: auto;
 }
+
