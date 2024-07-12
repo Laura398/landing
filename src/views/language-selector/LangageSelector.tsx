@@ -18,14 +18,18 @@ export default function LanguageSelector() {
 
   return (
     <Dropdown>
-      <MenuButton variant="plain" color="neutral" sx={{color: "white"}}>
+      <MenuButton variant="plain" color="neutral" sx={{ color: "white" }}>
         {countries.find((lng) => lng.code === i18n.language)?.name}
-        <img src={`/assets/flags/${i18n.language}.png`} width="18" style={{ marginLeft: "10px" }} />
+        <img
+          src={`/assets/flags/${i18n.language}.png`}
+          width="18"
+          style={{ marginLeft: "10px" }}
+        />
       </MenuButton>
       <Menu>
         {countries.map((lng) => {
           console.log(lng.code, i18n.language);
-          
+
           return (
             <MenuItem
               key={lng.code}

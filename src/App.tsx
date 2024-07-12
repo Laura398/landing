@@ -14,8 +14,17 @@ function App() {
                 <img src="/assets/logo.png" alt="logo" width={80} />
               </a>
               <ul className="links">
-                <li><a href="https://www.portfolio.lauramathieu.com" style={{color: "white"}}>Portfolio</a></li>
-                <li><LanguageSelector /></li>
+                <li>
+                  <a
+                    href="https://www.info.lauramathieu.com"
+                    style={{ color: "white" }}
+                  >
+                    Portfolio
+                  </a>
+                </li>
+                <li>
+                  <LanguageSelector />
+                </li>
               </ul>
             </div>
           </header>
@@ -24,8 +33,10 @@ function App() {
               <div className="info">
                 <img className="photo" src="/assets/photo.png" alt="photo" />
                 <h1>Laura Mathieu</h1>
-                <h2>{t('dev')}</h2>
-                <a href="https://www.portfolio.lauramathieu.com"><button>{t('discover')}</button></a>
+                <h2>{t("dev")}</h2>
+                <a href="https://www.info.lauramathieu.com">
+                  <button>{t("discover")}</button>
+                </a>
               </div>
             </div>
           </div>
